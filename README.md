@@ -10,9 +10,12 @@ This website showcases Sreshtha's mission, programs, events, and team through a 
 
 ```
 Sreshtha/
-├── index.html          # Main HTML file with all sections
-├── styles.css          # Complete responsive CSS styling
-├── script.js           # JavaScript for interactivity and animations
+├── index.html          # Homepage shell
+├── pages/              # Individual page shells
+├── data/               # Editable website content
+├── components/         # Shared render components
+├── css/                # Split stylesheet files
+├── js/                 # Rendering and interaction scripts
 └── README.md           # This file
 ```
 
@@ -185,14 +188,14 @@ Replace placeholder images:
   - Feature cards: 300x200px
 
 #### Modify Styling
-Edit `styles.css` to:
+Edit files inside `css/` to:
 - Change color scheme (update CSS variables at top)
 - Adjust spacing and layout
 - Customize typography
 - Add or modify animations
 
 #### Extend JavaScript
-Edit `script.js` to:
+Edit files inside `js/` to:
 - Add form validation
 - Integrate with backend services
 - Add more interactive features
