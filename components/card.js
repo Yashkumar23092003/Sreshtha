@@ -28,7 +28,6 @@ window.Card = {
                 ${top}
                 <div class="program-footer">
                     <h4>${item.title}</h4>
-                    <button class="view-btn">VIEW MORE</button>
                 </div>
             </div>
         `;
