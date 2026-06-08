@@ -6,8 +6,8 @@ window.SRESHTHA_WINGS = [
         icon: 'fa-graduation-cap',
         aboutTitle: 'ABOUT COLLEGE WING',
         heading: 'Be Part of College Wing',
-        image: '../assets/images/sreshtha-youth-hero.png',
-        imageAlt: 'College students learning with Sreshtha mentors',
+        image: '../assets/images/S-P-3.jpg',
+        imageAlt: 'College students rising to lead with Sreshtha',
         description: 'Our College Wing prioritizes fostering moral values and Vedic wisdom among students and educators. Addressing the dearth of character emphasis in academia, we instill integrity, empathy, and compassion through tailored programs. Educators, trained as ethical mentors, guide students toward a more responsible and harmonious societal contribution.',
         programs: [
             { icon: 'fa-certificate', title: 'Coaching Certification', status: 'Coming Soon' },
@@ -22,8 +22,8 @@ window.SRESHTHA_WINGS = [
         icon: 'fa-book',
         aboutTitle: 'ABOUT SCHOOL WING',
         heading: 'Be Part of School Wing',
-        image: '../assets/images/sreshtha-youth-hero.png',
-        imageAlt: 'School students learning with Sreshtha mentors',
+        image: '../assets/images/S-P-13.jpg',
+        imageAlt: 'School students exploring Delhi with Sreshtha mentors',
         description: 'The School Wing helps young students build discipline, values, confidence, and clarity early in life. Through engaging sessions and mentorship, students learn to communicate better, respect others, and grow into responsible future leaders.',
         programs: [
             { icon: 'fa-school', title: 'Value Education Sessions', status: 'Coming Soon' },
@@ -38,8 +38,8 @@ window.SRESHTHA_WINGS = [
         icon: 'fa-music',
         aboutTitle: 'ABOUT MUSIC WING',
         heading: 'Be Part of Music Wing',
-        image: '../assets/images/sreshtha-youth-hero.png',
-        imageAlt: 'Students participating in a Sreshtha music and values program',
+        image: '../assets/images/S-P-1.jpg',
+        imageAlt: 'A student reflecting in the golden hour at an ancient monument',
         description: 'The Music Wing uses music as a medium for discipline, devotion, creativity, and community connection. Students explore rhythm, expression, teamwork, and meaningful performance while staying rooted in positive values.',
         programs: [
             { icon: 'fa-music', title: 'Devotional Music Training', status: 'Coming Soon' },

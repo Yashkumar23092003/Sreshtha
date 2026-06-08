@@ -20,9 +20,12 @@ window.Card = {
     },
 
     program(item) {
+        const top = item.image
+            ? `<img src="${item.image}" alt="${item.title}">`
+            : `<div class="program-media"><i class="fas ${item.icon}"></i></div>`;
         return `
             <div class="program-card">
-                <div class="program-media"><i class="fas ${item.icon}"></i></div>
+                ${top}
                 <div class="program-footer">
                     <h4>${item.title}</h4>
                     <button class="view-btn">VIEW MORE</button>
@@ -46,10 +49,13 @@ window.Card = {
 
     event(item) {
         const locationIcon = item.locationIcon || 'fa-map-marker-alt';
+        const media = item.image
+            ? `<img src="${item.image}" alt="${item.title}">`
+            : `<div class="event-media"><i class="fas ${item.icon}"></i></div>`;
         return `
             <div class="event-card">
                 <div class="event-image">
-                    <div class="event-media"><i class="fas ${item.icon}"></i></div>
+                    ${media}
                 </div>
                 <div class="event-content">
                     <h4>${item.title}</h4>
